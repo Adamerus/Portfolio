@@ -224,21 +224,33 @@ img {
     margin-left: -43px;
 }
 .quotes {
+  position: relative;
     text-align: center;
     font-size: 22px;
     padding: 75px;
     margin: 0px;
 }
 .quote-block p {
-    border: 3px solid #98e89b;
-    background: url('images/content/quotes.png');
-    background-repeat: no-repeat;
-    background-size: 50px;
-    background-origin: border-box;
+  position: relative;
+    font-weight: 800;
     padding: 50px;
     margin: 50px;
 }
+.quote-block {
+  position: relative;
+  border-right: 3px solid rgba(0, 0, 0, 0.1);
+}
+.quote-block:last-child {
+  border-right: none;
+}
 
+.quote-block::before {
+  position: absolute;
+  content: url(images/content/quotes.png);
+  left: 50px;
+  top: 30px;
+  opacity: 0.5;
+}
 
 
 #sekce4 {
