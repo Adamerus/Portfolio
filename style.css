@@ -105,6 +105,9 @@ img {
 }
 #sekce1 p {
     text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
     padding-top: 25px;
     margin: 15px;
 }
@@ -154,6 +157,7 @@ img {
     font-size: 15px;
     letter-spacing: -1px;
     line-height: 1.4;
+    border-top: 5px solid #7bc74d;
     font-weight: 700;
 }
 #sekce2::after {
@@ -228,6 +232,7 @@ img {
     text-align: center;
     font-size: 22px;
     padding: 75px;
+    padding-top:95px;
     margin: 0px;
 }
 .quote-block p {
@@ -287,7 +292,7 @@ img {
   overflow: hidden;
 }
 #galerie-cent{
-  position:absolute;
+  position: absolute;
   left:7%;
 }
 .thumbnail {
@@ -316,6 +321,8 @@ overflow: hidden;
   background-color: #7BC74D;
 }
 #contact-form {
+  padding-top: 50px;
+  position: absolute;;
 }
 #contact-form p {
 margin:0;
@@ -336,7 +343,8 @@ margin:0;
   resize: vertical;
 
 }
-#contact-wrap{}
+#contact-wrap{position: relative;
+}
 #contact-form{}
 #jmeno {}
 #prijmeni {}
