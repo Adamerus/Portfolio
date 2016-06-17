@@ -150,6 +150,7 @@ img {
 #social li img {
     height: 40px;
     width: auto;
+    border-bottom: 2px solid #7bc74d;
 }
 #sekce2 {
     background-color: white;
@@ -292,11 +293,10 @@ img {
   overflow: hidden;
 }
 #galerie-cent{
-  position: absolute;
-  left:7%;
+  position: relative;
 }
 .thumbnail {
-  float:left;
+float:left;
   position: relative;
 width: 300px;
 height: 300px;
@@ -313,7 +313,10 @@ overflow: hidden;
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
 }
-
+.wrapper-galerie {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 
 
