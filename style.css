@@ -249,7 +249,9 @@ img {
 .quote-block:last-child {
   border-right: none;
 }
-
+.quote-block:first-child {
+  padding-right: -50px;
+}
 .quote-block::before {
   position: absolute;
   content: url(images/content/quotes.png);
@@ -325,7 +327,7 @@ overflow: hidden;
 }
 #contact-form {
   padding-top: 50px;
-  position: absolute;;
+
 }
 #contact-form p {
 margin:0;
@@ -333,14 +335,14 @@ margin:0;
 #contact-form form input {
   background-color: #393e46;
   border:none;
-  width: 560px;
+
   height: 35px;
   font-size: 30px;
 }
 #contact-form form textarea{
   background-color: #393e46;
   border:none;
-  width: 560px;
+
   height: 200px;
   font-size: 30px;
   resize: vertical;

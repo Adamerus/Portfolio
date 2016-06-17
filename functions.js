@@ -1,1 +1,1 @@
-confirm("Stránka není hotová. Berte to na vědomí :)");
+confirm("Stránka není hotová. Berte to na vědomí :)");.disable 
