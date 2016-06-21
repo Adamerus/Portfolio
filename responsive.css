@@ -78,6 +78,11 @@
   }
   .wrapper-galerie {max-width: 600px;}
 
+  #kontakt {
+  float:left;
+  padding-top:0px;
+  padding-left: 0px;
+  }
 }
 
 
@@ -95,12 +100,20 @@
     #nav-bar li {
       display: none;
     }
-    #nav-bar {
-
-    }
 
   .mobile-only {display:block !important;}
   .desktop-only {display:none !important;}
   .thumbnail {width: 178px;height: 178px;}
   .wrapper-galerie {max-width: 358px;}
+  #contact-form form input {
+    width:96%;
+}
+#contact-form form textarea{
+  width:96%;}
+
+    #kontakt {
+    float:left;
+    padding-top:0px;
+    padding-left: 0px;
+    }
 }

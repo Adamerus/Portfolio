@@ -324,6 +324,7 @@ overflow: hidden;
 
 #sekce5 {
   background-color: #7BC74D;
+  padding-bottom: 25px;
 }
 #contact-form {
   padding-top: 50px;
@@ -335,21 +336,42 @@ margin:0;
 #contact-form form input {
   background-color: #393e46;
   border:none;
-
+  width: 563px;
   height: 35px;
   font-size: 30px;
 }
 #contact-form form textarea{
   background-color: #393e46;
   border:none;
-
+  width: 563px;
   height: 200px;
   font-size: 30px;
   resize: vertical;
 
 }
 #contact-wrap{position: relative;
+  float:left;
+
 }
+#kontakt {
+float:left;
+padding-top:50px;
+padding-left: 50px;
+}
+ #kontakt li {
+   list-style: none;
+   position: relative;
+  }
+
+#kontakt p {
+ position: absolute;
+ left:60px;
+ top:0px;
+ font-size: 18px;
+ text-decoration: none;
+ color:  white;
+width:200px;
+   }
 #contact-form{}
 #jmeno {}
 #prijmeni {}
