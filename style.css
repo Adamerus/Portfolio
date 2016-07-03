@@ -47,12 +47,9 @@ img {
 #nav-bar li:hover {
     border-top: 4px solid #7bc74d;
 }
-#nav-bar li:active {
+#nav-bar li a:active {
     content: "";
-    margin: 0px auto;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 25px solid white;
+    color: rgb(221, 221, 221);
 }
 #sekce1 {
     position: relative;
