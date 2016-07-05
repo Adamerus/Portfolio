@@ -24,18 +24,19 @@ img {
     box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 1);
 }
 #nav-bar {
-    top: 0;
-    font-size: 14px;
+  top: 0;
+  font-size: 14px;
+  width: 100%;
+  height: 45px;
+  background-color: #393e46;
+  z-index: 1;
+  position: fixed;
+  text-align: right;
+}
+#nav-bar ul {
     word-spacing: 15px;
     padding: 14px 15px;
     margin: 0;
-    width: 100%;
-    height: 45px;
-    background-color: #393e46;
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    text-align: right;
 }
 #nav-bar li {
     display: inline;
@@ -44,12 +45,11 @@ img {
     color: white;
     text-decoration: none;
 }
-#nav-bar li:hover {
-    border-top: 4px solid #7bc74d;
-}
-#nav-bar li a:active {
+
+#nav-bar li a.active {
     content: "";
     color: rgb(221, 221, 221);
+    border-top: 4px solid #7bc74d;
 }
 #sekce1 {
     position: relative;
