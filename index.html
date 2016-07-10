@@ -10,6 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300italic,800|Oswald:400,700' rel='stylesheet' type='text/css'>
     <script src="functions.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 </head>
 
 <body>
@@ -161,39 +162,14 @@
 
                     <h1 class="oswald">GALERIE</h1>
                     <div id="galerie-cent">
-                        <div class="thumbnail">
-                            <a href="images\galery\sb.png"><img src="images\galery\sb.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\logos.png"><img src="images\galery\logos.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\Profilovka - shadow.png"><img src="images\galery\Profilovka - shadow.png"></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
-                        <div class="thumbnail">
-                            <a href="images\galery\zyonix wallpaper.png"><img src="images\galery\zyonix wallpaper.png" alt=""></a>
-                        </div>
+                      <div class="grid" data-masonry: '{"itemSelector":".grid-item", "columnWidth": 400}'>
+                        <div class="grid-item"><a href="images\galery\sb.png"><img src="images\galery\sb.png" alt=""></a></div>
+                        <div class="grid-item"><a href="images\galery\sb.png"><img src="images\galery\sb.png" alt=""></a></div>
+                        <div class="grid-item "><a href="images\galery\sb.png"><img src="images\galery\sb.png" alt=""></a></div>
+                        <div class="grid-item"><a href="images\galery\sb.png"><img src="images\galery\sb.png" alt=""></a></div>
+                        <div class="grid-item"><a href="images\galery\sb.png"><img src="images\galery\sb.png" alt=""></a></div>
+                      </div>
+
 
                     </div>
                 </div>

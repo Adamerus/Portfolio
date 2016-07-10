@@ -293,6 +293,17 @@ img {
 }
 #galerie-cent{
   position: relative;
+  line-height: 0;
+  -moz-column-count: 5;
+  -moz-column-gap: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 0;
+  column-count: 5;
+  column-gap: 0;
+}
+#galerie-cent a>img{
+  width:100%!important;
+  height:auto!important;
 }
 .thumbnail {
 float:left;
